@@ -1,0 +1,81 @@
+/* Configuration Générale */
+.main-container {
+    -fx-background-color: #f4f7f6;
+}
+
+.header {
+    -fx-background-color: #6a1b9a; /* Un violet plus moderne */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+/* Textes */
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.sub-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #eeeeee;
+}
+
+.table-view .cell {
+    -fx-cell-size: 30;
+    -fx-alignment: CENTER-LEFT;
+}
+
+/* Champs de texte */
+.read-only-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4;
+    -fx-padding: 5;
+}
+
+/* Badge de note (le Label bleu) */
+.note-badge {
+    -fx-background-color: white;
+    -fx-border-color: #3498db;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-text-fill: #3498db;
+    -fx-font-weight: bold;
+}
+
+/* Bouton */
+.btn-primary {
+    -fx-background-color: #6a1b9a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-background-radius: 20;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #8e24aa;
+}
+
+/* Image */
+.image-preview {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.footer-card {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 0);
+}
