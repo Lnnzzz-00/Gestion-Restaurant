@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 public class GestionRestaurantController implements Initializable
 {
     ArrayList<Carte> mesCartes;
-    Alert alert = new Alert(Alert.AlertType.WARNING);
+    Alert alert = new Alert(Alert.AlertType.ERROR);
 
     @FXML
     private TableView tvCartes;
